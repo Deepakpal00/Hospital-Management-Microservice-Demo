@@ -1,0 +1,17 @@
+package com.deepak.hrservice.Models;
+
+import java.util.List;
+
+public class EmployeesList {
+	
+	public List<Employee> getEmployees() {
+		return employees;
+	}
+
+	public static void setEmployees(List<Employee> employees) {
+		this.employees = employees;
+	}
+
+	public List<Employee> employees;
+
+}

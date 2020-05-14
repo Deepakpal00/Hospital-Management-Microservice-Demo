@@ -1,0 +1,9 @@
+package com.deepak.hrservice.resoure;
+
+@RestController
+@RequestMapping("/hr")
+public class HrResource {
+
+	
+	
+}

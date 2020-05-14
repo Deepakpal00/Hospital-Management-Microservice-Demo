@@ -1,0 +1,5 @@
+package com.deepak.admissionservice.models;
+
+public class Patient {
+
+}

@@ -1,0 +1,5 @@
+package com.deepak.patholofyservice.Model;
+
+public class Disease {
+
+}

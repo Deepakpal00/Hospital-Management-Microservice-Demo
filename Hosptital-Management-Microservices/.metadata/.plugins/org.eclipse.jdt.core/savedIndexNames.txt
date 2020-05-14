@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\ust25527\Desktop\Micro-services-example\.metadata\.plugins\org.eclipse.jdt.core
+3220724967.index
+465855475.index
+2579198522.index

@@ -1,0 +1,7 @@
+package com.deepak.pathologyservice.Model;
+
+public class DiseasesList {
+	
+	List<Disease> diseaseList;
+
+}

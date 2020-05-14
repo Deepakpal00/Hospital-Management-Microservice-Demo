@@ -1,0 +1,7 @@
+package com.deepak.hrservice.Models;
+
+public class EmployeesList {
+	
+	public List<Employees> employees;
+
+}

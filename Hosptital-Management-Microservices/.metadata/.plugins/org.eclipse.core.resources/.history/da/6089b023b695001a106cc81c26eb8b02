@@ -1,0 +1,33 @@
+package com.deepak.patholofyservice.resource;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.deepak.patholofyservice.Model.Disease;
+
+@RestController
+@RequestMapping("/pathology")
+public class PatholoryResource {
+
+	List<Disease> disease = Arrays.asList(
+			new Disease("D1", "Asthma", "warm water bath"),
+			new Disease("D2", "Thyphoid", "Amplicilin capsule"));
+	
+	
+	@GetMapping(value="/disease")
+	private List<Disease> getDiseases(){
+		return disease;
+	}
+	
+	@GetMapping(value = "/disease/{id}")
+	private Disease getDisease(@PathVariable("id") String id) {
+		   return disease.stream().filter(dis -> id.equals(dis.getId())).findAny().orElse(null);
+	  //   return disease.stream().filter(dis-> id.equals(dis.getId())).findAny().orElse(null);
+	}
+	
+}

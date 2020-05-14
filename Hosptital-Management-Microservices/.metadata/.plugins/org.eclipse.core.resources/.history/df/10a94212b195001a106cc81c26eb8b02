@@ -1,0 +1,22 @@
+package com.deepak.hrservice.resoure;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.deepak.hrservice.Models.Employee;
+
+@RestController
+@RequestMapping("/hr")
+public class HrResource {
+
+	List<Employee> employee = Arrays.asList(
+		new Employee("E1", "Deepak", "Munonye", "MediTech"),
+			new Employee("E2", "Sunnny", "Hardcastle", "Surgery"),
+			new Employee("E1", "You", "Chucks", "Dentistry"));
+			
+	
+	
+}
+  

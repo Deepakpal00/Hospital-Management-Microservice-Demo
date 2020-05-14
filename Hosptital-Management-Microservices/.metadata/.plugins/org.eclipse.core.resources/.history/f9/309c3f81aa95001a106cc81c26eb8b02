@@ -1,0 +1,6 @@
+package com.deepak.admissionservice.resource;
+
+@RestController
+public class AdmissionsResources {
+
+}

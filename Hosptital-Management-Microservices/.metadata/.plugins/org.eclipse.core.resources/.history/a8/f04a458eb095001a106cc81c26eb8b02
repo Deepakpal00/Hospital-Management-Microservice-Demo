@@ -1,0 +1,16 @@
+package com.deepak.hrservice.resoure;
+
+import java.util.Arrays;
+
+@RestController
+@RequestMapping("/hr")
+public class HrResource {
+
+	List<Employee> employee = Arrays.asList(
+			New Employee("E1", "Deepak", "Munonye", "MediTech"),
+			New Employee("E2", "Sunnny", "Hardcastle", "Surgery"),
+			New Employee("E1", "You", "Chucks", "Dentistry"));
+			
+	
+	
+}

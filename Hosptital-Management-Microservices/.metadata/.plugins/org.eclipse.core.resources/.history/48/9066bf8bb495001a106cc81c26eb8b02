@@ -1,0 +1,14 @@
+package com.deepak.patholofyservice.resource;
+
+import java.util.Arrays;
+
+import com.deepak.patholofyservice.Model.Disease;
+
+@RestController
+@RequestMapping("/pathology")
+public class PatholoryResource {
+
+	List<Disease> disease = Arrays.asList();
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.deepak.admissionservice.resource;
+
+public class AdmissionsResources {
+
+}

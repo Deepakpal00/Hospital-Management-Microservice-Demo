@@ -1,0 +1,19 @@
+package com.deepak.admissionservice.resource;
+
+import java.util.List;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.deepak.admissionservice.models.Patient;
+
+@RestController
+public class AdmissionsResources {
+	
+	public List<Patient> getPatients(){
+		
+	}
+	
+	public Patient getPatientById(@PathVariable("Id") String id) {
+		
+	}
+
+}

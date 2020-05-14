@@ -1,0 +1,5 @@
+package com.deepak.hrservice.Models;
+
+public class Employee {
+
+}
